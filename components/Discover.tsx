@@ -18,12 +18,14 @@ const Discover = () => {
   return (
     <section id="discover" className="pt-[7rem]">
       <div className="paddingD  mb-[13rem] ">
-        <h1 className="text-[37px] font-bold mb-[31px]">Discover</h1>
+        <h1 className="sm:text-[37px] text-[22px] font-bold mb-[31px]">
+          Discover
+        </h1>
         <div>
           <div className="discover-scroll" ref={scrollRef}>
             <div className="flex gap-[65px] items-center">
               <div>
-                <div className="w-[470px] h-[300px] bg-green rounded-[18px] flex justify-center items-center">
+                <div className="sm:w-[470px] w-[280px] h-[300px] bg-green rounded-[18px] flex justify-center items-center">
                   <Image
                     width={291}
                     height={251}
@@ -31,12 +33,12 @@ const Discover = () => {
                     alt="tracker-image"
                   />
                 </div>
-                <p className="text-green text-[28px] font-medium mt-[27px]">
+                <p className="text-green sm:text-[28px] font-medium mt-[27px] text-[18px]">
                   Blood Pressure
                 </p>
               </div>
               <div>
-                <div className="w-[470px] h-[300px] bg-green rounded-[18px] flex justify-center items-center">
+                <div className="sm:w-[470px] w-[280px] h-[300px] bg-green rounded-[18px] flex justify-center items-center">
                   <Image
                     width={291}
                     height={251}
@@ -44,12 +46,12 @@ const Discover = () => {
                     alt="tracker-image"
                   />
                 </div>
-                <p className="text-green text-[28px] font-medium mt-[27px]">
+                <p className="text-green sm:text-[28px] text-[18px] font-medium mt-[27px]">
                   Hypertension
                 </p>
               </div>
               <div>
-                <div className="w-[470px] h-[300px] bg-green rounded-[18px] flex justify-center items-center">
+                <div className="sm:w-[470px] w-[280px] h-[300px] bg-green rounded-[18px] flex justify-center items-center">
                   <Image
                     width={291}
                     height={251}
@@ -57,12 +59,12 @@ const Discover = () => {
                     alt="tracker-image"
                   />
                 </div>
-                <p className="text-green text-[28px] font-medium mt-[27px]">
+                <p className="text-green sm:text-[28px] text-[18px] font-medium mt-[27px]">
                   Hysteritis
                 </p>
               </div>
               <div>
-                <div className="w-[470px] h-[300px] bg-green rounded-[18px] flex justify-center items-center">
+                <div className="sm:w-[470px] w-[280px] h-[300px] bg-green rounded-[18px] flex justify-center items-center sm:mr-[3rem] mr-[1rem]">
                   <Image
                     width={291}
                     height={251}
@@ -70,13 +72,13 @@ const Discover = () => {
                     alt="tracker-image"
                   />
                 </div>
-                <p className="text-green text-[28px] font-medium mt-[27px]">
+                <p className="text-green sm:text-[28px] text-[18px] font-medium mt-[27px]">
                   Blood Pressure
                 </p>
               </div>
             </div>
           </div>
-          <div className="sm:flex items-center justify-between mt-[2rem] hidden ">
+          <div className="flex items-center justify-between mt-[2rem]">
             <Image
               src={"/arrow-right.svg"}
               alt="arrow-icon"

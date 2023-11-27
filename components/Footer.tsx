@@ -12,7 +12,7 @@ const Footer = () => {
           height={20}
           className="cursor-pointer ml-[-2.8rem]"
         />
-        <h1 className="text-[37px] font-bold text-white mt-[-2rem] pb-[6rem]">
+        <h1 className="sm:text-[37px] text-[25px] font-bold text-white mt-[-2rem] pb-[6rem]">
           SymptoSense
         </h1>
       </div>

@@ -17,7 +17,7 @@ const NavbarMain = () => {
           />
         </Link>
 
-        <div className="flex items-center gap-[2rem]">
+        <div className="sm:flex items-center gap-[2rem] hidden">
           <Link href={"/home"} className="text-white font-medium">
             Home
           </Link>
