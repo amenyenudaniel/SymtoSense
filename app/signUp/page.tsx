@@ -55,7 +55,7 @@ const SignUp = () => {
         </div>
 
         <div className="flex flex-col gap-[36px]">
-          <Link href={"/signUp"} className="mb-[4.5rem]">
+          <Link href={"/home"} className="mb-[4.5rem]">
             <button
               type="button"
               className="w-[384px] h-[61px] bg-white rounded-[46px] text-[20px] text-lightGreen font-medium hover:bg-lightGreen hover:text-white transition ease-in duration-200"
