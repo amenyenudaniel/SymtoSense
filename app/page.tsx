@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-
       <section className="flex justify-between items-center padding bg-green h-[95vh] bg-green gap-[1rem]">
         <ImageCarousel />
         <div className="flex flex-col items-center ">

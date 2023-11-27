@@ -7,14 +7,16 @@ const Navbar = () => {
     <>
       <div className="padding">
         <nav className="flex justify-between items-center pt-3 pb-3 ">
-          <Image
-            src={"/logo.svg"}
-            alt="logo"
-            width={120}
-            height={50}
-            objectFit="contain"
-            className="cursor-pointer"
-          />
+          <Link href={"/"}>
+            <Image
+              src={"/logo.svg"}
+              alt="logo"
+              width={120}
+              height={50}
+              objectFit="contain"
+              className="cursor-pointer"
+            />
+          </Link>
 
           <div className="flex items-center gap-[2rem]">
             <Link href={"/"}>Home</Link>
