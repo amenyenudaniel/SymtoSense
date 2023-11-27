@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="padding mt-[5rem]">
       <div className="flex gap-[3rem] items-center">
         <Image width={117} height={117} alt="user-image" src={"/user.svg"} />
-        <div>
+        <div id="profile">
           <h1 className="text-[41px] text-green font-normal">
             Good Morning, <br />
             <span className="text-green font-bold text-[41px]">Joel!</span>

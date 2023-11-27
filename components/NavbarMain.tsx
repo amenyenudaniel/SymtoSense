@@ -4,7 +4,7 @@ import React from "react";
 
 const NavbarMain = () => {
   return (
-    <div className="padding bg-green">
+    <div className="padding bg-green" id="home">
       <nav className="flex items-center justify-between p-3 ">
         <Image
           src={"/menu.svg"}
@@ -26,9 +26,12 @@ const NavbarMain = () => {
             Home
           </Link>
           <div className="cursor-pointer flex items-center gap-[5px]">
-            <p className="text-[16px] font-normal font-medium text-white">
+            <a
+              href="#discover"
+              className="text-[16px] font-normal font-medium text-white"
+            >
               Discover
-            </p>
+            </a>
             <Image
               src={"/arrow-white.svg"}
               alt="arrow"
@@ -37,18 +40,20 @@ const NavbarMain = () => {
               className="mb-[-5px]"
             />
           </div>
-          <div className="cursor-pointer flex items-center gap-[5px]">
-            <p className="text-[16px] font-normal font-medium text-white">
-              Profile
-            </p>
-            <Image
-              src={"/arrow-white.svg"}
-              alt="arrow"
-              width={12}
-              height={10}
-              className="mb-[-5px]"
-            />
-          </div>
+          <a href="#profile">
+            <div className="cursor-pointer flex items-center gap-[5px]">
+              <p className="text-[16px] font-normal font-medium text-white">
+                Profile
+              </p>
+              <Image
+                src={"/arrow-white.svg"}
+                alt="arrow"
+                width={12}
+                height={10}
+                className="mb-[-5px]"
+              />
+            </div>
+          </a>
         </div>
       </nav>
     </div>
