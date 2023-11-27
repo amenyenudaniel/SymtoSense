@@ -21,7 +21,7 @@ const config: Config = {
         xs: "450px",
         sm: "650px",
         md: "900px",
-        lg: "1200px",
+        lg: "1400px",
       },
     },
   },
