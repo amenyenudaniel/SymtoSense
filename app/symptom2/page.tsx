@@ -14,8 +14,8 @@ const Symptom = () => {
               <Image
                 src="/arrow-left1.svg"
                 alt="arrow-icon"
-                width={36}
-                height={24}
+                width={26}
+                height={26}
                 className="cursor-pointer"
               />
             </Link>
