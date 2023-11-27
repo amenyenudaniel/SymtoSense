@@ -13,6 +13,7 @@ const config: Config = {
         white: "#fff",
         lightGreen: "#029090",
         lightWhite: "rgba(255, 255, 255, 0.55)",
+        greenBright: " #29FFFE",
       },
       screens: {
         xs: "450px",
