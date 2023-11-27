@@ -8,7 +8,7 @@ const Symptom = () => {
     <section>
       <NavbarMain />
       <div className="padding">
-        <div className="flex items-center justify-between mt-[2rem]">
+        <div className="flex items-center flex-wrap gap-[3rem]  justify-between mt-[2rem]">
           <div className="flex gap-[2rem] items-center">
             <Link href={"/home"}>
               <Image
@@ -24,7 +24,7 @@ const Symptom = () => {
           <Link href={"/symptom2"}>
             <button
               type="button"
-              className="w-[250px] border border-lightBlack h-[61px] bg-white rounded-[46px] text-[20px] text-lightGreen font-medium hover:bg-lightGreen hover:text-white transition ease-in duration-200 hover:border-none"
+              className="md:w-[250px] w-full md:p-4 p-2 border border-lightBlack md:h-[61px] h-full bg-white md:rounded-[46px] rounded-[30px] md:text-[20px] text-[16px] text-lightGreen font-medium hover:bg-lightGreen hover:text-white transition ease-in duration-200 hover:border-none"
             >
               Previous Answer
             </button>
@@ -40,7 +40,7 @@ const Symptom = () => {
             height={24}
             className="cursor-pointer"
           />
-          <p className="text-[64px] font-medium mb-[3rem]">
+          <p className="sm:text-[64px] text-[32px] font-medium mb-[3rem]">
             What is your blood <br />
             pressure rate?
           </p>
@@ -48,7 +48,7 @@ const Symptom = () => {
           <input
             type="text"
             placeholder="e.g. 90/60mmHg and 120/80mmHg"
-            className="w-full h-[70px] border border-lightBlack rounded-[35px] pl-[2.5rem] text-[23px] text-black font-medium outline-none"
+            className="w-full sm:h-[70px] h-[40px] border border-lightBlack rounded-[35px] sm:pl-[2.5rem] pl-[1rem] sm:text-[23px] text-[17px] text-black font-medium outline-none"
           />
 
           <Link

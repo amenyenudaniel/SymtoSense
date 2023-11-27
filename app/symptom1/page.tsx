@@ -13,12 +13,12 @@ const Symptom = () => {
             <Image
               src="/arrow-left1.svg"
               alt="arrow-icon"
-              width={36}
-              height={24}
+              width={26}
+              height={26}
               className="cursor-pointer"
             />
           </Link>
-          <h1 className="font-bold text-[36px]">Assessment</h1>
+          <h1 className="font-bold sm:text-[36px] text-[22px]">Assessment</h1>
         </div>
 
         <div className="pl-3 h-[80vh] flex justify-center flex-col ">
@@ -29,7 +29,7 @@ const Symptom = () => {
             height={24}
             className="cursor-pointer"
           />
-          <p className="text-[64px] font-medium mb-[3rem]">
+          <p className="sm:text-[64px] text-[32px] font-medium mb-[3rem]">
             How are you <br />
             feeling?
           </p>
@@ -37,7 +37,7 @@ const Symptom = () => {
           <input
             type="text"
             placeholder="e.g. back pain"
-            className="w-full h-[70px] border border-lightBlack rounded-[35px] pl-[2.5rem] text-[23px] text-black font-medium outline-none"
+            className="w-full sm:h-[70px] h-[40px] border border-lightBlack rounded-[35px] sm:pl-[2.5rem] pl-[1rem] sm:text-[23px] text-[17px] text-black font-medium outline-none"
           />
 
           <Link
