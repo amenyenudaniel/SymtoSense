@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="padding mt-[5rem]">
       <div className="flex gap-[3rem] items-center flex-wrap justify-center sm:justify-start">
-        <Image width={117} height={117} alt="user-image" src={"/user.svg"} />
+        <div className="w-[120px] h-[120px] rounded-full bg-lightGreen" />
         <div id="profile">
           <h1 className="sm:text-[41px] text-[30px] text-green font-normal">
             Good Morning, <br />

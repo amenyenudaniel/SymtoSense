@@ -55,7 +55,7 @@ const SignUp = () => {
         </div>
 
         <div className="flex flex-col gap-[36px]">
-          <Link href={"/home"} className="mb-[4.5rem]">
+          <Link href={"/age"} className="mb-[4.5rem]">
             <button
               type="button"
               className="sm:w-[384px] w-[200px] h-[61px] bg-white rounded-[46px] sm:text-[20px]  text-[17px] text-lightGreen font-medium hover:bg-lightGreen hover:text-white transition ease-in duration-200"
