@@ -35,7 +35,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col gap-[36px]">
-            <Link href={"/signIn"}>
+            <Link href={"/home"}>
               {" "}
               <button
                 type="button"
